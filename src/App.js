@@ -2,7 +2,7 @@ import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import { StyledContainer } from './styles/Container.styled';
-import {BrowserRouter, Route, Routes, Link} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Blogs from './components/Blogs';
 import Projects from "./components/Projects";
 
