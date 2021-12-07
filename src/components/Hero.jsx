@@ -9,7 +9,7 @@ const Hero = () => {
             pragun dua
         </div>
         <div className="desc">
-        border-radius enthusiast. frontend x design. currently working on:  
+        border-radius enthusiast. frontend x design. currently working on  
         <span className="live-stats"> this data will be generated live.</span>
         </div>
         </StyledHero>

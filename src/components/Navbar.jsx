@@ -1,5 +1,6 @@
 import React from 'react'
-import avatar from "../anim.gif"
+// import avatar from "../images/anim.gif"
+import avatar from "../images/face.png"
 import { StyledNavbar } from '../styles/Navbar.styled'
 
 const Navbar = () => {

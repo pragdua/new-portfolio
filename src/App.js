@@ -1,6 +1,7 @@
 import './App.css';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import SocialLinks from './components/SocialLinks';
 import { StyledContainer } from './styles/Container.styled';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <StyledContainer>
       <Navbar/>
       <Hero/>
+      <SocialLinks/>
     </StyledContainer>
   );
 }

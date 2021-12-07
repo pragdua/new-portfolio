@@ -1,4 +1,17 @@
+import { keyframes } from "styled-components";
 import styled from "styled-components";
+
+const appear = keyframes`
+
+0% {
+    opacity: 0%;
+}
+
+100% {
+
+}
+
+`;
 
 export const StyledNavbar = styled.div`
 
@@ -14,13 +27,20 @@ export const StyledNavbar = styled.div`
     
 
     & .avatar {
-        height: 10vh;
+        height: 14vh;
         border-radius: 999px;
+
+        animation: ${appear} 2s ease;
     }
+
+
 
     & .navs {
         text-align: right;
+        cursor: pointer;
     }
+
+    
 
 
 `;
