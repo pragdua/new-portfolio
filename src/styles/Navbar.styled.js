@@ -50,12 +50,13 @@ export const StyledNavbar = styled.div`
 
     & .navs {
         text-align: right;
-        cursor: pointer;
+
     }
 
     & .nav-link {
       text-decoration: none;
       color: white;
+      cursor: pointer;
     }
 
     & .nav-link:hover {
