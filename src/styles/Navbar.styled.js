@@ -7,9 +7,24 @@ const appear = keyframes`
     opacity: 0%;
 }
 
-100% {
+10% {
+    opacity: 60%;
+  }
 
-}
+20% {
+    opacity: 10%;
+  }
+40% {
+    opacity: 100%;
+  }
+
+50% {
+    opacity: 0%;
+  }
+
+100% {
+    opacity: 100%;
+} 
 
 `;
 
@@ -25,15 +40,13 @@ export const StyledNavbar = styled.div`
     margin-top: 10vh;
     line-height: 1.3rem;
     
-
     & .avatar {
         height: 14vh;
         border-radius: 999px;
 
-        animation: ${appear} 2s ease;
+        animation: ${appear} 1s linear;
+        
     }
-
-
 
     & .navs {
         text-align: right;
@@ -41,6 +54,4 @@ export const StyledNavbar = styled.div`
     }
 
     
-
-
 `;
