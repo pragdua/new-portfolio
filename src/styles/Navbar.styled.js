@@ -32,7 +32,8 @@ export const StyledNavbar = styled.div`
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
+    align-items: center;
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Epilogue', sans-serif;
     font-weight: 500;
