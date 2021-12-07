@@ -1,10 +1,11 @@
 import React from 'react'
-import { StyledHero } from '../styles/Hero.styled'
+import { StyledHome } from '../styles/Home.styled'
+import SocialLinks from './SocialLinks'
 
-const Hero = () => {
+const Home = () => {
     return (
-
-        <StyledHero>
+        <>
+        <StyledHome>
         <div className="name">
             pragun dua
         </div>
@@ -12,8 +13,10 @@ const Hero = () => {
         border-radius enthusiast. frontend x design. currently working on  
         <span className="live-stats"> this data will be generated live.</span>
         </div>
-        </StyledHero>
+        </StyledHome>
+        <SocialLinks />
+        </>
     )
 }
 
-export default Hero
+export default Home

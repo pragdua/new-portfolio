@@ -1,4 +1,16 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const appear = keyframes`
+
+0% {
+    opacity: 0%;
+}
+
+100% {
+    opacity: 100%;
+} 
+
+`;
 
 export const StyledSocialLinks = styled.div`
 
@@ -14,8 +26,11 @@ export const StyledSocialLinks = styled.div`
    }
 
    & .social-link {
+
+    /* animation: ${appear} 3s ease-in; */
        
    }
+
 
    & img {
     filter: invert(100%) sepia(8%) saturate(94%) hue-rotate(313deg) brightness(112%) contrast(80%);

@@ -7,7 +7,7 @@ const appear = keyframes`
     opacity: 0%;
 }
 
-10% {
+/* 10% {
     opacity: 60%;
   }
 
@@ -20,7 +20,7 @@ const appear = keyframes`
 
 50% {
     opacity: 0%;
-  }
+  } */
 
 100% {
     opacity: 100%;
@@ -44,7 +44,7 @@ export const StyledNavbar = styled.div`
         height: 14vh;
         border-radius: 999px;
 
-        animation: ${appear} 1s linear;
+        animation: ${appear} 3s ease-in;
         
     }
 
@@ -52,6 +52,18 @@ export const StyledNavbar = styled.div`
         text-align: right;
         cursor: pointer;
     }
+
+    & .nav-link {
+      text-decoration: none;
+      color: white;
+    }
+
+    & .nav-link:hover {
+      color: grey;
+      transition: all 0.5s ease;
+    }
+
+
 
     
 `;
