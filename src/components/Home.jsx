@@ -13,7 +13,7 @@ const Home = () => {
         </div>
         <div className="desc">
         border-radius enthusiast. frontend x design. community lead, twitter developer platform. 
-        currently working on <span className="live-stats"> <a href="https://twitter.com/pragdua">twittr.xyz</a>, <a href="https://lookfora.space">lookfora.space</a> and <a href="twitterbff.vercel.app">twitterbff</a>. </span>
+        currently working on <span className="live-stats"> <a href="https://lookfora.space">lookfora.space</a> and <a href="twitterbff.vercel.app">twitterbff</a>. </span>
         </div>
         </StyledHome>
         <SocialLinks />
