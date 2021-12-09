@@ -30,9 +30,6 @@ export const StyledProjects = styled.div`
       margin-top: 1rem;
    } 
 
-   & .live-stats {
-      color: grey;
-   }
 
 
 

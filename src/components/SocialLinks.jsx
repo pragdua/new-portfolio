@@ -8,13 +8,19 @@ const SocialLinks = () => {
     return (
         <StyledSocialLinks>
             <div className="social-link">
-                <img src={twitter} alt="" />
+                <a href="https://twitter.com/pragdua">
+                <img src={twitter} alt="twitter icon" />
+                </a>
                 </div>
             <div className="social-link">
-                <img src={linkedin} alt="" />
+                <a href="https://www.linkedin.com/in/pragun-dua-0128031a8/">
+                <img src={linkedin} alt="linkedin icon" />
+                </a>
                 </div>
             <div className="social-link">
-                <img src={github} alt="" />
+                <a href="https://github.com/pragdua">
+                <img src={github} alt="github icon" />
+                </a>
                 </div>
             {/* <div className="social-link"></div> */}
         </StyledSocialLinks>

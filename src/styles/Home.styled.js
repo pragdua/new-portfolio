@@ -56,11 +56,9 @@ export const StyledHome = styled.div`
       color: #B5B5B5;
    } 
 
-   & .live-stats {
-      /* color: #e5e5e5; */
-   }
+ 
 
-   & .live-stats a {
+   & .highlight {
       color: white;
       text-decoration: none;
       font-weight: bold;

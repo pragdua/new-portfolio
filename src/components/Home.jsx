@@ -12,8 +12,8 @@ const Home = () => {
             pragun dua
         </div>
         <div className="desc">
-        border-radius enthusiast. frontend x design. community lead, twitter developer platform. 
-        currently working on <span className="live-stats"> <a href="https://lookfora.space">lookfora.space</a> and <a href="twitterbff.vercel.app">twitterbff</a>. </span>
+        frontend dev x design. <span className="highlight">community lead, twitter developer platform. </span>
+        currently working with <span className="highlight"> react + redux </span> and learning <span className = "highlight">nextJS. </span>
         </div>
         </StyledHome>
         <SocialLinks />

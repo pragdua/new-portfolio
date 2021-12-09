@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="navs">
                 <div> <Link to="/" className="nav-link">home</Link> </div>
                 <div> <Link to="/projects" className="nav-link">projects</Link> </div>
-                <div> <Link to="/blogs" className="nav-link">blogs</Link> </div>
+                {/* <div> <Link to="/blogs" className="nav-link">blogs</Link> </div> */}
                 <div> <a href="https://drive.google.com/file/d/1D2r3bXFPPAfXgdZEmnGUlKT3BBV0HvhK/view?usp=sharing" className="nav-link">resume</a>  </div>
             </div>
         </StyledNavbar>
