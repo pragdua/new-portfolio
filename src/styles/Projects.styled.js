@@ -18,6 +18,7 @@ export const StyledProjects = styled.div`
 
    font-family: 'Inter', sans-serif;
    margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
    font-size: 1.2rem;
    animation: ${appear} 1s ease;
 
