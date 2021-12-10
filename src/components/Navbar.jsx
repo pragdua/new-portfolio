@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div> <Link to="/" className="nav-link">home</Link> </div>
                 <div> <Link to="/projects" className="nav-link">projects</Link> </div>
                 {/* <div> <Link to="/blogs" className="nav-link">blogs</Link> </div> */}
-                <div> <a href="https://drive.google.com/file/d/1VQziJfSoS-hk9eAKZlOiHpLvfBHaxsQv/view?usp=sharing" className="nav-link">resume</a>  </div>
+                <div> <a href="https://drive.google.com/file/d/1HVss1yG-4-BkHosIEp5_uid2cVC06zKp/view?usp=sharing" className="nav-link">resume</a>  </div>
             </div>
         </StyledNavbar>
     )
