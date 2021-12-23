@@ -12,8 +12,8 @@ const Home = () => {
             pragun dua
         </div>
         <div className="desc">
-        frontend dev x design. <span className="highlight">community lead, twitter developer platform. </span>
-        currently working with <span className="highlight"> react + redux </span> and learning <span className = "highlight">nextJS. </span>
+        code x design. working with <span className="highlight"> react + typescript + framer </span>
+        as a <span className="highlight"> ux engineer</span> at <span className = "highlight">headout</span>
         </div>
         </StyledHome>
         <SocialLinks />
